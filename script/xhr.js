@@ -1,9 +1,9 @@
 console.clear();
+// 4 ways to call api - XMLHttpRequest, fetch, axios, jquery
 
 // event - onload(), onerror()
 // property - response, responseText, responseType, responseURL, status, statusText
 // function - open(), send(), setRequestHeader()
-
 
 const makeRequest = (method, url, data) => {
     return new Promise(()=> {
